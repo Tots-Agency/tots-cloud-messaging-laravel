@@ -1,0 +1,32 @@
+{
+    "name": "tots/cloud-messaging-laravel",
+    "description": "The library for Laravel PHP",
+    "version": "0.0.1",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tots\\CloudMessaging\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matias Camiletti",
+            "email": "matias.camiletti@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "tots/core-laravel": "dev-main",
+        "laravel/framework": "^10.10",
+        "guzzlehttp/guzzle": "^7.7",
+        "google/auth": "^1.29"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/tots-agency/tots-core-laravel.git"
+        }
+    ]
+}
