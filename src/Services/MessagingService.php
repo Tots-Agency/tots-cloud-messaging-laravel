@@ -59,7 +59,7 @@ class MessagingService
         ]);
     }
 
-    public function sendMessageToSpecificDevive($token, $title, $body, $data = null, $apns = null)
+    public function sendMessageToSpecificDevice($token, $title, $body, $data = null, $apns = null)
     {
         return $this->sendMessageBase([
             'message' => [
