@@ -1,7 +1,7 @@
 {
     "name": "tots/cloud-messaging-laravel",
     "description": "The library for Laravel PHP",
-    "version": "0.0.1",
+    "version": "11.0.2",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -18,8 +18,8 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.0",
-        "tots/core-laravel": "dev-main",
-        "laravel/framework": "^10.10",
+        "tots/core-laravel": "^11.0.2",
+        "laravel/framework": "^10|^11",
         "guzzlehttp/guzzle": "^7.7",
         "google/auth": "^1.29"
     },
